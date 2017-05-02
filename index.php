@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="static/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="static/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="static/css/ie8.css" /><![endif]-->
-		<link rel="shortcut icon" href="static/images/favicon.ico"> </head>
+		<link rel="shortcut icon" href="static/images/favicon.ico">	// TODO Need a logo
 	</head>
 	<body>
 
@@ -25,7 +25,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="static/images/logo.svg" alt="" /></span>
+						<span class="logo"><img src="static/images/logo.svg" alt="" /></span>	// TODO  Need to change this to toolbox icon
 						<h1>TOOLBOX</h1>
 						<p>A Useful toolkit for <br>students
 							in IC</p>
@@ -46,19 +46,33 @@
 
 						<!-- Introduction -->
 							<section id="Citation" class="main">
+							<script type="text/javascript">
+								function shaded(){
+									
+								}
+							</script>
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Ipsum sed adipiscing</h2>
+											<h2>Citation</h2>
+											<ul class="actions">
+											<li>
+											<a class="button" onclick="selectButton(this)">MLA</a>
+											</li>
+											<li>
+											<a class="button" onclick="selectButton(this)">APA</a>
+											</li>
+											<li>
+											<a class="button" onclick="selectButton(this)">Wiki</a>
+											</li>
+											</ul>
 										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul>
+										<div id="citationform">
+										<!-- TO hold elements that can show citation box -->
+										
+										<p>Some paragraphs</p>
+										</div>
 									</div>
-									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 								</div>
 							</section>
 
@@ -184,6 +198,7 @@
 			<script src="static/js/util.js"></script>
 			<!--[if lte IE 8]><script src="static/js/ie/respond.min.js"></script><![endif]-->
 			<script src="static/js/main.js"></script>
+			<script src="static/js/own.js"></script>
 
 	</body>
 </html>
