@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="static/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="static/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="static/css/ie8.css" /><![endif]-->
-		<link rel="shortcut icon" href="static/images/favicon.ico">	// TODO Need a logo
+		<link rel="shortcut icon" href="static/images/favicon.ico">	<!--// TODO Need a logo-->
 	</head>
 	<body>
 
@@ -25,7 +25,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="static/images/logo.svg" alt="" /></span>	// TODO  Need to change this to toolbox icon
+						<span class="logo"><img src="static/images/logo.svg" alt="" /></span>	<!--// TODO  Need to change this to toolbox icon And thetoolbox.online can directly refer to this server -->
 						<h1>TOOLBOX</h1>
 						<p>A Useful toolkit for <br>students
 							in IC</p>

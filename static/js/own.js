@@ -5,7 +5,7 @@ function selectButton(it){
     }
     it.setAttribute("class","button special");
     var citationform = document.getElementById("citationform"); // Get citationform
-    switch (it.textContent) {
+    switch (it.textContent) {   // Separate this from selectButton, allow it to be a function
         case 'MLA': // Switch to using template
             citationform.innerHTML="<h2>CitationBox</h2>";
             break;
