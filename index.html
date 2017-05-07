@@ -57,13 +57,13 @@
 											<h2>Citation</h2>
 											<ul class="actions">
 											<li>
-											<a class="button" onclick="selectButton(this)">MLA</a>
+											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">MLA</a>
 											</li>
 											<li>
-											<a class="button" onclick="selectButton(this)">APA</a>
+											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">APA</a>
 											</li>
 											<li>
-											<a class="button" onclick="selectButton(this)">Wiki</a>
+											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">Wiki</a>
 											</li>
 											</ul>
 										</header>
@@ -189,7 +189,21 @@
 					</footer>
 
 			</div>
-
+			<template id="urlCitation">
+				<form method="post" action="#">
+				    <div class="row uniform">
+        				<div class="12u">
+        				    <input type="text" name="URL" id="URL" value="" placeholder="URL">
+        				</div>
+        				<div class="12u$">
+		    				<ul class="actions">
+			    				<li><input type="submit" value="Submit" class="special"></li>
+								<li><input type="reset" value="Reset"></li>
+							</ul>
+						</div>
+    				</div>
+    			</form>
+			</template>
 		<!-- Scripts -->
 			<script src="static/js/jquery.min.js"></script>
 			<script src="static/js/jquery.scrollex.min.js"></script>
