@@ -6,13 +6,30 @@ function loadTemplate(element,id){
         alert ("Browser does not support HTTP Request");
         return;
     }
-    var url = "citaition?tmp="+id;
-    xmlHttp.open("GET",url,true)
-    xmlHttp.send(null)
-    par.appendChild(xmlHttp.responseText);
-    console.log("Loaded template");
+    var url = "citation.php?tmp="+id+"&t="+Math.random();
+    httpxml.onreadystatechange=function()  // Call back function
+       {
+        if (httpxml.readyState==4 && httpxml.status==200)
+          {
+           var nodes = string2element(httpxml.responseText);
+           // console.log(nodes); // First element in body
+           if (par.querySelector(nodes.tagName) == null){
+               par.appendChild(nodes); 
+           }
+       }
+       }
+    httpxml.open("GET",url,true);
+    httpxml.send(null);
+    
     
 }
+function string2element(str){
+    console.log(str);
+    var parser = new DOMParser();
+    var doc = parser.parseFromString(str, "text/html");
+    return doc.firstChild.lastChild.firstChild;
+}
+
 function GetXmlHttpObject()
 {
 var xmlHttp=null;
