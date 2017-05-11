@@ -183,6 +183,7 @@
 					</footer>
 
 			</div>
+<<<<<<< HEAD:index.php
 			<template id="urlCitation">
 				<form method="post" action="index.php?tmp=" method="GET" >
 				    <div class="row uniform">
@@ -198,6 +199,8 @@
     				</div>
     			</form>
 			</template>
+=======
+>>>>>>> loadhtmltemplate:index.html
 		<!-- Scripts -->
 			<script src="static/js/jquery.min.js"></script>
 			<script src="static/js/jquery.scrollex.min.js"></script>
@@ -207,6 +210,7 @@
 			<!--[if lte IE 8]><script src="static/js/ie/respond.min.js"></script><![endif]-->
 			<script src="static/js/main.js"></script>
 			<script src="static/js/own.js"></script>
+			<script src="static/js/load.js"></script>
 
 	</body>
 </html>

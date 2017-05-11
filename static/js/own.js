@@ -23,6 +23,7 @@ function selectButton(element){
     par.lastChild.textContent=element.textContent;
     console.log(par.childNodes)
 }*/
+<<<<<<< HEAD
 function loadTemplate(element,id){
     var par = element.parentElement.parentElement.parentElement.parentElement;  // a li ul div
     var httpxml=GetXmlHttpObject();
@@ -60,4 +61,7 @@ catch (e)
  }
 return xmlHttp;
 }
+=======
+
+>>>>>>> loadhtmltemplate
 
