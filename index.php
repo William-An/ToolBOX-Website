@@ -27,8 +27,8 @@
 					<header id="header" class="alt">
 						<span class="logo"><img src="static/images/logo.svg" alt="" /></span>	<!--// TODO  Need to change this to toolbox icon And thetoolbox.online can directly refer to this server -->
 						<h1>TOOLBOX</h1>
-						<p>A Useful toolkit for <br>students
-							in IC</p>
+						<p>A Useful toolkit<br> for students
+							</p>
 					</header>
 
 				<!-- Nav -->
@@ -46,18 +46,13 @@
 
 						<!-- Introduction -->
 							<section id="Citation" class="main">
-							<script type="text/javascript">
-								function shaded(){
-									
-								}
-							</script>
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
 											<h2>Citation</h2>
 											<ul class="actions">
 											<li>
-											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">MLA</a>
+											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">MLA</a> <!--Use php to load html? AJAX-->
 											</li>
 											<li>
 											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">APA</a>
@@ -69,8 +64,7 @@
 										</header>
 										<div id="citationform">
 										<!-- TO hold elements that can show citation box -->
-										
-										<p>Some paragraphs</p>
+										<p></p>
 										</div>
 									</div>
 								</div>
@@ -171,12 +165,12 @@
 						<section>
 							<h2>Etiam feugiat</h2>
 							<dl class="alt">
-								<dt>Address</dt>
+								<!--<dt>Address</dt>
 								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
 								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
+								<dd></dd>-->
 								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
+								<dd><a href="#">China_Aisa@live.com</a></dd>
 							</dl>
 							<ul class="icons">
 								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
@@ -190,7 +184,7 @@
 
 			</div>
 			<template id="urlCitation">
-				<form method="post" action="#">
+				<form method="post" action="index.php?tmp=" method="GET" >
 				    <div class="row uniform">
         				<div class="12u">
         				    <input type="text" name="URL" id="URL" value="" placeholder="URL">
