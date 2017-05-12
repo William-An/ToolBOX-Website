@@ -183,24 +183,7 @@
 					</footer>
 
 			</div>
-<<<<<<< HEAD:index.php
-			<template id="urlCitation">
-				<form method="post" action="index.php?tmp=" method="GET" >
-				    <div class="row uniform">
-        				<div class="12u">
-        				    <input type="text" name="URL" id="URL" value="" placeholder="URL">
-        				</div>
-        				<div class="12u$">
-		    				<ul class="actions">
-			    				<li><input type="submit" value="Submit" class="special"></li>
-								<li><input type="reset" value="Reset"></li>
-							</ul>
-						</div>
-    				</div>
-    			</form>
-			</template>
-=======
->>>>>>> loadhtmltemplate:index.html
+
 		<!-- Scripts -->
 			<script src="static/js/jquery.min.js"></script>
 			<script src="static/js/jquery.scrollex.min.js"></script>
@@ -211,8 +194,7 @@
 			<script src="static/js/main.js"></script>
 			<script src="static/js/own.js"></script>
 			<script src="static/js/load.js"></script>
-
-	</body>
+</body>
 </html>
 
 
