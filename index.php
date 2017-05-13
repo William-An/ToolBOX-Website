@@ -9,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>ICTOOLBOXs</title>
+		<title>TheToolBox</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="static/js/ie/html5shiv.js"></script><![endif]-->
@@ -27,7 +27,7 @@
 					<header id="header" class="alt">
 						<span class="logo"><img src="static/images/logo.svg" alt="" /></span>	<!--// TODO  Need to change this to toolbox icon And thetoolbox.online can directly refer to this server -->
 						<h1>TOOLBOX</h1>
-						<p>A Useful toolkit<br> for students
+						<p>A collection of tools<br> for students
 							</p>
 					</header>
 
@@ -57,9 +57,9 @@
 											<li>
 											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">APA</a>
 											</li>
-											<li>
+											<!--<li>
 											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">Wiki</a>
-											</li>
+											</li>-->
 											</ul>
 										</header>
 										<div id="citationform">
@@ -192,8 +192,10 @@
 			<script src="static/js/util.js"></script>
 			<!--[if lte IE 8]><script src="static/js/ie/respond.min.js"></script><![endif]-->
 			<script src="static/js/main.js"></script>
+			<script src="static/js/malsup.js"></script>
 			<script src="static/js/own.js"></script>
 			<script src="static/js/load.js"></script>
+			<script type="text/javascript" src="static/js/citation.js"></script>
 </body>
 </html>
 

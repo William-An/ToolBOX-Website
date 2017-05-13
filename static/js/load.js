@@ -23,6 +23,12 @@ function loadTemplate(element,id){
                 nodes.style.display='';
                 $(par.lastChild).replaceWith(nodes);
            }
+           $(par.lastChild).submit(function(){
+               return false;
+            });
+            $(par.lastChild).reset(function(){
+               $(par.lastChild).clearForm();
+             });
            // console.log(nodes.id);
        }
        }
