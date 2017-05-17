@@ -175,7 +175,7 @@
 								<li><a href="https://github.com/William-An" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
 							</ul>
 						</section>
-						<p>Restyle: <a href="http://william-an.xyz/">Weili An</a> | Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p>© 2017-<?php echo date("Y")?> | Restyle: <a href="http://william-an.xyz/">Weili An</a> | Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>

@@ -9,8 +9,24 @@
     $result['author'] = $html->find('meta[name="author"]',0)->content;    // Get author's name
     $result['sitename'] = $html->find('meta[property="og:site_name"]',0)->content;
     $result['publisher'] = $html->find('meta[property="og:site_name]',0)->content;
-    $result['pubdate'] = substr($html->find('meta[property="article:published_time"]',0)->content,0,10);
-    $result['accdate'] = date('Y-m-d');
+    $pubdate = substr($html->find('meta[property="article:published_time"]',0)->content,0,10);
+    $pubdateraw=date_create_from_format("Y-m-d",$pubdate);
+    switch ($_GET['type']){
+        case 'MLA':
+            $result['accdate'] = strftime("%d %b. %Y");
+            $pubdate = date_format($pubdateraw,"d M. Y");
+            break;
+        case 'APA':
+            $result['accdate'] = date("h:i").", ".strftime("%b %d, %Y");
+            $pubdate = date_format($pubdateraw,"Y, M d");
+            
+            break;
+        default:
+            $result['accdate'] = date("Y-m-d");
+    }
+    $result['pubdate'] = $pubdate;
+        
+    
     echo json_encode($result);
     
 ?>
