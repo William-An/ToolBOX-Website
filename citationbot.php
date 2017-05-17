@@ -1,4 +1,5 @@
 <?php
+    error_reporting(E_ALL^E_NOTICE^E_WARNING);  // Prevent warning output
     include_once("simple_html_dom.php");
     $url = $_GET['URL'];
     $url = substr($url,4);
@@ -14,17 +15,28 @@
     switch ($_GET['type']){
         case 'MLA':
             $result['accdate'] = strftime("%d %b. %Y");
-            $pubdate = date_format($pubdateraw,"d M. Y");
+            try{
+                $result['pubdate'] = date_format($pubdateraw,"d M. Y");
+            }
+            catch (Exception $e){
+                $result['pubdate'] = $pubdate;
+            }
             break;
         case 'APA':
             $result['accdate'] = date("h:i").", ".strftime("%b %d, %Y");
             $pubdate = date_format($pubdateraw,"Y, M d");
-            
+            try{
+                $result['pubdate'] = date_format($pubdateraw,"Y, M d");
+            }
+            catch (Exception $e){
+                $result['pubdate'] = $pubdate;
+            }
             break;
         default:
             $result['accdate'] = date("Y-m-d");
+            $result['pubdate'] = $pubdate;
     }
-    $result['pubdate'] = $pubdate;
+    
         
     
     echo json_encode($result);
