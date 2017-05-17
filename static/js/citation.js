@@ -26,12 +26,12 @@ function initializeBot(element){
                         switch (form.id) {
                             case 'MLA': // SHould not use citationdata
                             // TODO: MLA, APA citation format and then we are done!
-                                citationtext += $(form).find("input#author").attr("value")+". ";
-                                citationtext += "\""+$(form).find("input#article").attr("value")+"\" ";
-                                citationtext += "<i>"+$(form).find("input#publisher").attr("value")+".</i> ";
-                                citationtext += $(form).find("input#sitename").attr("value")+", ";
-                                citationtext += $(form).find("input#pubdate").attr("value")+". Web. ";
-                                citationtext += $(form).find("input#accdate").attr("value")+".";
+                                citationtext += $("input#author").val()+". ";
+                                citationtext += "\""+$("input#article").val()+"\" ";
+                                citationtext += "<i>"+$("input#publisher").val()+".</i> ";
+                                citationtext += $("input#sitename").val()+", ";
+                                citationtext += $("input#pubdate").val()+". Web. ";
+                                citationtext += $("input#accdate").val()+".";
                                 // citationtext = $(par.lastChild).find("input#author").attr("value");
                                 // console.log("Detect");
                                 // code
@@ -47,7 +47,7 @@ function initializeBot(element){
                                 citationtext = "Still under develop"
                                 // code
                         }
-                        $(par.lastChild).append("<p><h3>Please copy me</h3>"+citationtext+"</p>");   // Place citation inside the form
+                        $(par.lastChild).append("<span><h3>Please copy me</h3>"+citationtext+"</span>");   // Place citation inside the form
                         return false;   // Prohibit submit
                     });
                     $(par.lastChild).slideToggle('slow');
