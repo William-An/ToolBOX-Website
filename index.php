@@ -52,20 +52,16 @@
 											<h2>Citation</h2>
 											<ul class="actions">
 											<li>
-											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">MLA</a> <!--Use php to load html? AJAX-->
+											<a class="button" onclick="selectButton(this),loadTemplate(this,'Citation/urlCitation')">MLA</a> <!--Use php to load html? AJAX-->
 											</li>
 											<li>
-											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">APA</a>
+											<a class="button" onclick="selectButton(this),loadTemplate(this,'Citation/urlCitation')">APA</a>
 											</li>
 											<!--<li>
 											<a class="button" onclick="selectButton(this),loadTemplate(this,'urlCitation')">Wiki</a>
 											</li>-->
 											</ul>
 										</header>
-										<div id="citationform">
-										<!-- TO hold elements that can show citation box -->
-										<p></p>
-										</div>
 									</div>
 								</div>
 							</section>

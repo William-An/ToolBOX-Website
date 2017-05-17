@@ -21,7 +21,8 @@ function loadTemplate(element,id){
            }
            else if (par.querySelector(nodes.tagName) != nodes){
                 nodes.style.display='';
-                $(par.lastChild).replaceWith(nodes);
+                
+                $(par.lastChild).replaceWith(nodes); // Problem!!!, unable to clear generated form, need to delete all element besides header
            }
            $(par.lastChild).submit(function(){
                return false;
