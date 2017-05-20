@@ -36,7 +36,7 @@
 								    This is a server-side problem, either I am trying to upload the website source code or I mess it up :) So don't worry, if this still happens, please notify me ASAP!</p>
 								<h2>How to improve</h2>
                                 <p>You can give me feedback through e-mail (right under this section) or you can post the issue you met on <a href="https://github.com/William-An/ToolBOX-Website">Github</a><br/>
-                                    It will be nice if you call bring the error message together!</p>
+                                    It will be nice if you could submit with the error message!</p>
 							</section>
 
 					</div>

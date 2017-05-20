@@ -35,7 +35,7 @@
 								<p>Usually the cause is that the file you want to access is not uploaded yet or the url you want to visit is not available.</p>
 								<h2>How to improve</h2>
                                 <p>You can give me feedback through e-mail (right under this section) or you can post the issue you met on <a href="https://github.com/William-An/ToolBOX-Website">Github</a><br/>
-                                    It will be nice if you call bring the error message together!</p>
+                                    It will be nice if you could submit with the error message!</p>
 
 					</div>
 
