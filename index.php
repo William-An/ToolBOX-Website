@@ -18,6 +18,13 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="static/css/ie8.css" /><![endif]-->
 		<link rel="shortcut icon" href="static/images/favicon.ico">	<!--// TODO Need a logo-->
 	</head>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3199022834616540",
+    enable_page_level_ads: true
+  });
+</script>
 	<body>
 
 		<!-- Wrapper -->

@@ -3,7 +3,7 @@
 							<h2>About TheToolBox</h2>
 							<p>TheToolBox aims at providing students with a collection of useful tools in order to help them.
 							    All sections in TheToolBox are written by myself only(except for the template) and could be found on the git repository of this website.<br/>
-							    Special thanks to <a href="https://html5up.net">HTML5 UP</a> which provides the template TheToolBox using. 
+							    Special thanks to <a href="https://html5up.net">HTML5 UP</a> for the template TheToolBox using. 
 							</p>
 							
 						</section>
