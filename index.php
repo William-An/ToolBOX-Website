@@ -10,11 +10,11 @@
 <html>
 	<head>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-3199022834616540",
-    enable_page_level_ads: true
-  });
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({
+    		google_ad_client: "ca-pub-3199022834616540",
+    		enable_page_level_ads: true
+			});
 </script>
 		<title>TheToolBox</title>
 		<meta charset="utf-8" />
@@ -37,7 +37,10 @@
 							<img src="static/images/logo.svg" alt="" />
 						</span>	<!--// TODO  Need to change this to toolbox icon And thetoolbox.online can directly refer to this server -->
 						<h1>TheToolBox</h1>
-						<p>A collection of tools<br> for students
+						<p>A collection of tools for students in order to help their study<br/>
+						<?php
+							include "tipsChooser.php";
+						?>
 							</p>
 					</header>
 
@@ -62,6 +65,8 @@
 										<header class="major">
 											<h2>Citation</h2>
 											<span class="icon major style2 fa-pencil"></span>
+											<p>Here is the Citation section, you can cite any website you want by clicking buttons below and filling the url blank. 
+												After submitting, you can modify the citation automatically generate by the server's crawler.</p>
 											<ul class="actions">
 											<li>
 											<a class="button" onclick="selectButton(this),loadTemplate(this,'Citation/urlCitation')">MLA</a> <!--Use php to load html? AJAX-->
@@ -83,6 +88,8 @@
 								<header class="major">
 									<h2>Exam</h2>
 									<span class="icon major style3 fa-cloud-download"></span>
+									<p>Here is the Exam section. You can download all of the past AP exam materials that were published on <a href="https://apcentral.collegeboard.com" traget="_blank">CollegeBoard AP Central</a>. 
+										In addition, this section also provides links to SAT preparation websites.</p>
 								<ul class="actions">
 										<li><a onclick="selectButton(this),loadTemplate(this,'Exam/downloadform')" class="button">AP</a></li>
 										<li><a onclick="selectButton(this),loadTemplate(this,'Exam/satlinks')" class="button">SAT</a></li>
@@ -122,7 +129,7 @@
 									<ul class="actions">
 										<li><a onclick="selectButton(this),loadTemplate(this,'Timer/Pomodoro')" class="button">Pomodoro</a></li>
 										<li><a onclick="selectButton(this),loadTemplate(this,'Timer/Muse')" class="button">Muse</a></li>
-										<!--<li><a onclick="selectButton(this),loadTemplate(this,'Exam/actlinks')" class="button">TOEFL</a></li>-->
+										<li><a onclick="selectButton(this),loadTemplate(this,'Timer/Normal_Timer')" class="button">Normal Timer</a></li>
 										<!--<li><a onclick="selectButton(this),loadTemplate(this,'Exam/actlinks')" class="button">IELTS</a></li>-->
 										<!--<li><a onclick="selectButton(this),loadTemplate(this,'Exam/actlinks')" class="button">ACT</a></li>-->
 									</ul>
@@ -133,16 +140,41 @@
 						<!-- Useful links-->
 							<section id="Links" class="main special">
 								<header class="major">
-									<h2>Congue imperdiet</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-								</header>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="generic.html" class="button special">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
+									<h2>Wonderful Links</h2>
+									<p>Academic Links - Save your GPA!</p>
+									<ul class="features">
+									    <li><a href="http://www.wikihow.com/">WikiHow - Don't know what to do? Ask!</a></li>
+									    <li><a href="https://www.khanacademy.org">Khan Academy - Online courses! Free!</a></li>
+									    <li><a href="https://www.coursera.org/">Coursera - Advanced Open courses! AI Machine Learning and Others!</a></li>
+									    <li><a href="https://ocw.mit.edu/index.htm">MIT OCW - MIT Open Courses</a></li>
+									    <li><a href="http://www.sparknotes.com/">Sparknots - Save your Drama course and AP Language course</a></li>
+									    <li><a href="">PlaceHoler</a></li><!--CommonNote A website that hosts open and free note for High School students</a></li>-->
 									</ul>
-								</footer>
+									<p>Tools - Become more successful!</p>
+									<ul class="features">
+										<li><a href="https://workflowy.com/#">Workflowy - Todolist or Mindmap? Depends on you!</a></li>
+										<li><a href="https://www.fontspring.com">Fontspring - Font</a></li>
+										<li><a href="https://daringfireball.net/projects/markdown/">Markdown - No more Word or Pages</a></li>
+										<li><a href="http://thetoolbox.online">Here!</a></li>
+										<li><a href="https://www.onshape.com/">Onshape - CAD on Cloud!</a></li>
+										<li><a href="https://www.github.com">Github - Not only for coding</a></li>
+									</ul>
+									<p>Programmers, ATTACK!</p>
+									<ul class="features">
+									    <li><a href="https://c9.io/">Cloud 9 - Online IDE && The develop environment for this website</a></li>
+									    <li><a href="https://www.w3schools.com/">W3School - For Web developers!</a></li>
+									    <li><a href="http://www.jetbrains.com/">JetBrains - The best IDE provider</a></li>
+									    <li><a href="https://www.bluehost.com/">Bluehost - Want some cheap servers?</a></li>
+									    <li><a href="http://www.sublimetext.com/">SublimeText 3 - The best editor</a></li>
+									    <li><a href="https://github.com/XX-net/XX-Net">Sorry, there is no Ladder here</a></li>
+									</ul>
+									<p>Relative Websites</p>
+									<ul class="features">
+										<li><a href="https://forum.sun-seminary.com">Solar System - Houston, we are lost!</a></li>
+										<li><a href="">CommonNote - Anyone wants note?</a></li>
+										<li><a href="">TheXYZLab - My Personal website</a></li>
+									</ul>
+								</header>
 							</section>
 
 					</div>
