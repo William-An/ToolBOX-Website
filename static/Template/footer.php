@@ -3,7 +3,11 @@
 							<h2>About TheToolBox</h2>
 							<p>TheToolBox aims at providing students with a collection of useful tools in order to help them.
 							    All sections in TheToolBox are written by myself only(except for the template) and could be found on the git repository of this website.<br/>
-							    Special thanks to <a href="https://html5up.net">HTML5 UP</a> for the template TheToolBox using. 
+							    It's not easy to build this website, if you have chance please help me by clicking the advertisement shown on my website page.
+							    <br/>
+							    Special thanks to <a href="https://html5up.net">HTML5 UP</a> for the template TheToolBox using,<br/>
+								<a href="http://simplehtmldom.sourceforge.net/">PHP Simple HTML DOM Parser</a> for the PHP HTML parser,<br/>
+								<a href="https://github.com/malsup">Malsup</a> for the <a href="http://jquery.malsup.com/form/#api">jQuery form plugin</a>
 							</p>
 							
 						</section>

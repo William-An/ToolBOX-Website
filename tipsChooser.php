@@ -30,7 +30,9 @@
              "Every Ad click you make is supporting my development on this website, thank you!",
              "If you have trouble loading this page, please press F12 and copy the error message in the console section and email me, thanks for your feedback!",
              "You can always email me if you can!",
-             "Share you idea of improvement on the git repository of this site on <a href=\"https://github.com/William-An/Tool-Website\">Github</a>"
+             "Share you idea of improvement on the git repository of this site on <a href=\"https://github.com/William-An/Tool-Website\">Github</a>",
+             "Ctrl P print current tab",
+             "Poeple can print file to PDF!"
              );
              echo $tips[array_rand($tips,1)];
 ?>

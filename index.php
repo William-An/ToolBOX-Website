@@ -96,7 +96,7 @@
 										<!--<li><a onclick="selectButton(this),loadTemplate(this,'Exam/actlinks')" class="button">TOEFL</a></li>-->
 										<!--<li><a onclick="selectButton(this),loadTemplate(this,'Exam/actlinks')" class="button">IELTS</a></li>-->
 										<!--<li><a onclick="selectButton(this),loadTemplate(this,'Exam/actlinks')" class="button">ACT</a></li>-->
-									</ul>
+								</ul>
 								</header>
 							</section>
 
@@ -141,38 +141,13 @@
 							<section id="Links" class="main special">
 								<header class="major">
 									<h2>Wonderful Links</h2>
-									<h3>Academic Links - Save your GPA!</h3>
-									<ul class="features">
-									    <li><a href="http://www.wikihow.com/">WikiHow - Don't know what to do? Ask!</a></li>
-									    <li><a href="https://www.khanacademy.org">Khan Academy - Online courses! Free!</a></li>
-									    <li><a href="https://www.coursera.org/">Coursera - Advanced Open courses! AI Machine Learning and Others!</a></li>
-									    <li><a href="https://ocw.mit.edu/index.htm">MIT OCW - MIT Open Courses</a></li>
-									    <li><a href="http://www.sparknotes.com/">Sparknots - Save your Drama course and AP Language course</a></li>
-									    <li><a href="">PlaceHoler</a></li><!--CommonNote A website that hosts open and free note for High School students</a></li>-->
-									</ul>
-									<h3>Tools - Become more successful!</h3>
-									<ul class="features">
-										<li><a href="https://workflowy.com/#">Workflowy - Todolist or Mindmap? Depends on you!</a></li>
-										<li><a href="https://www.fontspring.com">Fontspring - Font</a></li>
-										<li><a href="https://daringfireball.net/projects/markdown/">Markdown - No more Word or Pages</a></li>
-										<li><a href="http://thetoolbox.online">Here!</a></li>
-										<li><a href="https://www.onshape.com/">Onshape - CAD on Cloud!</a></li>
-										<li><a href="https://www.github.com">Github - Not only for coding</a></li>
-									</ul>
-									<h3>Programmers, ATTACK!</h3>
-									<ul class="features">
-									    <li><a href="https://c9.io/">Cloud 9 - Online IDE && The develop environment for this website</a></li>
-									    <li><a href="https://www.w3schools.com/">W3School - For Web developers!</a></li>
-									    <li><a href="http://www.jetbrains.com/">JetBrains - The best IDE provider</a></li>
-									    <li><a href="https://www.bluehost.com/">Bluehost - Want some cheap servers?</a></li>
-									    <li><a href="http://www.sublimetext.com/">SublimeText 3 - The best editor</a></li>
-									    <li><a href="https://github.com/XX-net/XX-Net">Sorry, there is no Ladder here</a></li>
-									</ul>
-									<h3>Relative Websites</h3>
-									<ul class="features">
-										<li><a href="https://forum.sun-seminary.com">Solar System - Houston, we are lost!</a></li>
-										<li><a href="">CommonNote - Anyone wants note?</a></li>
-										<li><a href="">TheXYZLab - My Personal website</a></li>
+									<span class="icon major style2 fa-random"></span>
+									<p>You can click one of the buttons below to access some interesting websites!</p>
+									<ul class="actions">
+										<li><a onclick="selectButton(this),loadTemplate(this,'Links/programmer')" class="button">Programmers</a></li>
+										<li><a onclick="selectButton(this),loadTemplate(this,'Links/academic')" class="button">Academic</a></li>
+										<li><a onclick="selectButton(this),loadTemplate(this,'Links/tools')" class="button">Tools</a></li>
+										<li><a onclick="selectButton(this),loadTemplate(this,'Links/relativelinks')" class="button">Friendship</a></li>
 									</ul>
 								</header>
 							</section>
@@ -181,8 +156,8 @@
 
 				<!-- Footer -->
 				<?php
-						include "static/Template/footer.php";
-					?>
+					include "static/Template/footer.php";
+				?>
 
 			</div>
 
