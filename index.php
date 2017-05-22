@@ -141,7 +141,7 @@
 							<section id="Links" class="main special">
 								<header class="major">
 									<h2>Wonderful Links</h2>
-									<p>Academic Links - Save your GPA!</p>
+									<h3>Academic Links - Save your GPA!</h3>
 									<ul class="features">
 									    <li><a href="http://www.wikihow.com/">WikiHow - Don't know what to do? Ask!</a></li>
 									    <li><a href="https://www.khanacademy.org">Khan Academy - Online courses! Free!</a></li>
@@ -150,7 +150,7 @@
 									    <li><a href="http://www.sparknotes.com/">Sparknots - Save your Drama course and AP Language course</a></li>
 									    <li><a href="">PlaceHoler</a></li><!--CommonNote A website that hosts open and free note for High School students</a></li>-->
 									</ul>
-									<p>Tools - Become more successful!</p>
+									<h3>Tools - Become more successful!</h3>
 									<ul class="features">
 										<li><a href="https://workflowy.com/#">Workflowy - Todolist or Mindmap? Depends on you!</a></li>
 										<li><a href="https://www.fontspring.com">Fontspring - Font</a></li>
@@ -159,7 +159,7 @@
 										<li><a href="https://www.onshape.com/">Onshape - CAD on Cloud!</a></li>
 										<li><a href="https://www.github.com">Github - Not only for coding</a></li>
 									</ul>
-									<p>Programmers, ATTACK!</p>
+									<h3>Programmers, ATTACK!</h3>
 									<ul class="features">
 									    <li><a href="https://c9.io/">Cloud 9 - Online IDE && The develop environment for this website</a></li>
 									    <li><a href="https://www.w3schools.com/">W3School - For Web developers!</a></li>
@@ -168,7 +168,7 @@
 									    <li><a href="http://www.sublimetext.com/">SublimeText 3 - The best editor</a></li>
 									    <li><a href="https://github.com/XX-net/XX-Net">Sorry, there is no Ladder here</a></li>
 									</ul>
-									<p>Relative Websites</p>
+									<h3>Relative Websites</h3>
 									<ul class="features">
 										<li><a href="https://forum.sun-seminary.com">Solar System - Houston, we are lost!</a></li>
 										<li><a href="">CommonNote - Anyone wants note?</a></li>
