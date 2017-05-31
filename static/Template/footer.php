@@ -16,7 +16,7 @@
 							<p>A senior(about) in SMS<br>
 							    Founder of <a href="http://william-an.xyz">TheXYZLab</a><br/>
 							    Cofounder of <a href="https://github.com/NeX-Studio">NeX-Studio</a><br/>
-							    Memeber of <a href="https://github.com/SunSeminary">Sun-Seminary</a>
+							    Memeber of <a href="http://sun-seminary.com">Sun-Seminary</a>
 							        
 							</p>
 							<dl class="alt">
@@ -26,7 +26,7 @@
 								<dt>Phone</dt>
 								<dd></dd>-->
 								<dt>Email</dt>
-								<dd><a href="#">China_Aisa@live.com</a></dd>
+								<dd><a href="mailto:China_Aisa@live.com">China_Aisa@live.com</a></dd>
 								<dt></dt>
 							</dl>
 							<ul class="actions">
@@ -39,5 +39,5 @@
 								<li><a href="https://github.com/William-An" target="_blank" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
 							</ul>
 						</section>
-						<p>© 2017-<?php echo date("Y")?> | Restyle: <a href="http://william-an.xyz/">Weili An</a> | Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p>©2017-<?php echo date("Y")?> TheXYZLab | Restyle: <a href="http://william-an.xyz/">Weili An</a> | Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>

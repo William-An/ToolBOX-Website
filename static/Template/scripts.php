@@ -10,3 +10,4 @@
 			<script src="static/js/load.js"></script>
 			<script type="text/javascript" src="static/js/citation.js"></script>
 			<script type="text/javascript" src="static/js/downloadfile.js"></script>
+			<script type="text/javascript" src="static/js/timer.js"></script>
