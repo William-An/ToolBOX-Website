@@ -1,11 +1,14 @@
-<form onsubmit="timer(this)" id=25 style="display:none">
+<form onsubmit="selecttimer(this)" time=25 style="display:none">
     <!--// 25 min counterdown + title
     // Unable to load js about DOM is loaded
     // Use form submit to call function
     // ding~ end sound-->
     <div class="row uniform">
         <div class="12u$">
-            <input type="text" name="task" placeholder="Task Title"/>
+            <input style="text-align:center" type="text" name="Task" placeholder="Task Title" value="Untitle Task" />
+        </div>
+        <div class="12u$">
+            <input style="text-align:center" type="text" name="Time" placeholder="Time(min)" value=25 />
         </div>
         <div class="12u$">
     	    <ul class="actions">
