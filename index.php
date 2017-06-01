@@ -85,7 +85,6 @@
 
 						<!-- Exam -->
 							<section id="Exam" class="main special">
-							<div>
 								<header class="major">
 									<h2>Exam</h2>
 									<span class="icon major style3 fa-cloud-download"></span>
@@ -99,12 +98,10 @@
 										<!--<li><a onclick="selectButton(this),loadTemplate(this,'Exam/actlinks')" class="button">ACT</a></li>-->
 								</ul>
 								</header>
-								</div>
 							</section>
 
 						<!-- Timer-->
 							<section id="Timer" class="main special">
-							<div>
 								<header class="major">
 									<h2>Timer</h2>
 									<ul class="statistics">
@@ -139,7 +136,7 @@
 									</ul>
 									-->
 								</header>
-								</div>
+								
 							</section>
 
 						<!-- Useful links-->
