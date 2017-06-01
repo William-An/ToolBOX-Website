@@ -129,6 +129,7 @@
 										<strong>Success</strong>
 									</li>
 								</ul>
+								<!--
 									<ul class="actions">
 										<li><a onclick="selectButton(this),loadTemplate(this,'Timer/Pomodoro')" class="button">Pomodoro</a></li>
 										<li><a onclick="selectButton(this),loadTemplate(this,'Timer/Muse')" class="button">Muse</a></li>
@@ -136,6 +137,7 @@
 										<!--<li><a onclick="selectButton(this),loadTemplate(this,'Exam/actlinks')" class="button">IELTS</a></li>-->
 										<!--<li><a onclick="selectButton(this),loadTemplate(this,'Exam/actlinks')" class="button">ACT</a></li>-->
 									</ul>
+									-->
 								</header>
 								</div>
 							</section>
