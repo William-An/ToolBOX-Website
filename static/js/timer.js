@@ -25,14 +25,15 @@ function starttimer(element){
     secs = parseInt($(element).formSerialize().split("&")[1].split("=")[1])*60;
     if(lock == null){
         // New timer
-        $(element).append("<div class='12u$'><h1>"+task+"</h1>");
+        $(element).append("<div><h1 id='task'>"+task+"</h1>");
         $(element).append("<h1 id='timer'></h1></div>"); // id=timer
-        $(element).append("<audio src='static/audio/beep.mp3' autoplay='autoplay' loop='loop' muted='muted'>Ha! Not beep for you!</audio>")
+        $(element).append("<audio id='beep' src='static/audio/beep.mp3' autoplay='autoplay' loop='loop' muted='muted'>Ha! Not beep for you!</audio>")
         countdown();
     }
     else{
         // Restart timer
-        document.getElementsByTagName("audio")[0].muted=true;
+        document.getElementById("task").textContent=task;
+        document.getElementById("beep").muted=true;
         var temp = secs;
         stoptimer(lock);
         secs = temp;
