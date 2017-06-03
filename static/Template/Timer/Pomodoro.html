@@ -1,4 +1,4 @@
-<form onsubmit="selecttimer(this)" time=25 style="display:none">
+<form onsubmit="starttimer(this)" onreset="stoptimer(this);document.getElementsByTagName('audio')[0].muted=true;" time=25 style="display:none">
     <!--// 25 min counterdown + title
     // Unable to load js about DOM is loaded
     // Use form submit to call function
