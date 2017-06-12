@@ -50,6 +50,7 @@
 							<li><a href="#Citation" class="active">Citation</a></li>
 							<li><a href="#Exam">Exam</a></li>
 							<li><a href="#Timer">Timer</a></li>
+							<li><a href="#APlang">AP LANG</a></li>
 							<li><a href="#Links">Links</a></li>
 						</ul>
 					</nav>
@@ -143,7 +144,18 @@
 								</header>
 								</div>
 							</section>
-
+							<section id="APlang" class="main special">
+							<div>
+								<header class="major">
+									<h2>AP Lang Section</h2>
+									<span class="icon major style4 fa-pencil-square-o"></span>
+									<p>Links to success</p>
+									<?php
+										include "static/Template/AP Lang/aplang.html";
+									?>
+								</header>
+								</div>
+							</section>
 						<!-- Useful links-->
 							<section id="Links" class="main special">
 							<div>
