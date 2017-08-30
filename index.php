@@ -27,7 +27,7 @@
 	</head>
 
 	<body>
-
+		<?php include_once("analyticstracking.php") ?>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
