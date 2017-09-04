@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="static/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="static/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="static/css/ie8.css" /><![endif]-->
-		<link rel="shortcut icon" href="static/images/favicon.ico">	<!--// TODO Need a logo-->
+		<link rel="shortcut icon" href="static/images/favicon.png">	<!--// TODO Need a logo-->
 	</head>
 
 	<body>
